@@ -1,0 +1,13 @@
+{
+    "name": "felipe/phpunit",
+    "description": "estudos de testes unitarios com phpunit",
+    "autoload": {
+        "classmap": [
+            "src/classes/controllers",
+            "src/helpers/php"
+        ]
+    },    
+    "scripts": {
+        "test" : "./phpunit --bootstrap vendor/autoload.php tests"
+    }
+}
